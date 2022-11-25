@@ -1,0 +1,722 @@
+.card-body .wizard .container {
+    width: 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+    .wizard > .steps > ul > li {
+        width: 100%;
+    }
+
+    #content {
+        margin-left: 25px !important;
+    }
+
+    .visibilidade {
+        flex-direction: column-reverse !important;
+        align-items: flex-start !important;
+    }
+
+    .content-admin {
+        padding: 0 20px 0 20px !important;
+    }
+
+    #content {
+        margin-left: 8px !important;
+        margin-right: 8px !important;
+    }
+    .label100Mobile {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .leftMobile {
+        float: left !important;
+        text-align: left !important;
+    }
+    .mb-50-not-mobile {
+        bottom: 0px !important;
+    }
+    .mt-10-mobile {
+        margin-top: 10px !important;
+    }
+    .mt-5-mobile {
+        margin-top: 5px;
+    }
+    .mt-20-mobile {
+        margin-top: 20px;
+    }
+    .mb-25-not-mobile {
+        bottom: 0px !important;
+    }
+    .paddingSide0Mobile {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .mt-25-not-mobile {
+        margin-top: 0px !important;
+    }
+    .mb-0-mobile {
+        margin-bottom: 0px !important;
+    }
+    .top-menu {
+        position: fixed !important;
+        width: 100% !important;
+        top: 0px !important;
+        z-index: 99 !important;
+    }
+
+    .LegendMobile {
+        margin-top: 50px;
+    }
+
+    .wui-menu {
+        position: fixed !important;
+        z-index: 99999999 !important;
+        top: 4px;
+    }
+    .ml-menos-90 {
+        margin-left: 0px !important;
+    }
+
+    .help-text {
+        margin-left: 3px !important;
+    }
+
+    .help-text2 {
+        margin-left: 18px !important;
+        padding-right: 30px;
+    }
+
+    .mt-menos-10-mobile {
+        margin-top: -10px !important;
+    }
+
+    .mb-step-form {
+        margin-bottom: 15px !important;
+    }
+    .textCenterNotMobile {
+        text-align: left !important;
+    }
+    .ml-menos-20 {
+        margin-left: 0px !important;
+    }
+
+    .mt-5-mobile {
+        margin-top: 5px !important;
+    }
+    .mb-10-mobile {
+        margin-bottom: 10px !important;
+    }
+    .mb-menos-10-mobile {
+        margin-bottom: -10px !important;
+    }
+    .buttonsPermalink {
+        margin-left: 0px !important;
+    }
+    .textInformativo {
+        margin-left: -15px;
+    }
+    .marginTopMenos25Mobile {
+        margin-top: -25px;
+    }
+    .inputMobileIntegrante {
+        margin-left: 17px;
+        width: 91% !important;
+    }
+    .select2MobileIntegrantes {
+        margin-left: 17px !important;
+        width: 91% !important;
+    }
+
+    .divButtonIntegrantes {
+        float: left !important;
+    }
+
+    .imgCapaMobile {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .mb-25-mobile {
+        margin-bottom: 25px !important;
+    }
+    .mb-35-mobile {
+        margin-bottom: 35px !important;
+    }
+    .imgPreview {
+        width: 31% !important;
+    }
+    .videoKeyup {
+        margin-top: 20px !important;
+    }
+    .ml-0-mobile {
+        margin-left: 0px !important;
+    }
+
+    .divInputDatesMemorial {
+        width: 50% !important;
+        margin-top: 10px !important;
+    }
+
+    .divValuesChangeDatesMemorial {
+        /* width: 50%; */
+        text-align: left !important;
+        margin-top: 18px !important;
+        margin-bottom: 20px;
+    }
+
+    legend {
+        margin-bottom: 0px !important;
+    }
+    .legendAfterDetail {
+        margin-top: 8px !important;
+    }
+
+    .mt-0-mobile {
+        margin-top: 0px !important;
+    }
+
+    .centerStructure {
+        display: inline-flex;
+        margin-top: -20px;
+        float: right;
+    }
+
+    .titleStructure {
+        max-width: 95% !important;
+        display: block;
+        margin-bottom: 5px !important;
+    }
+    .selectStructure {
+        width: 35% !important;
+    }
+    .unityStructure {
+        width: 15% !important;
+    }
+    .unityStructureNew {
+        width: 30% !important;
+    }
+    .displayInlineFlex {
+        display: inline-flex;
+    }
+    .noneMobile {
+        display: none !important;
+    }
+    .noneDesktop {
+        display: inline-flex !important;
+    }
+    .width2 {
+        width: 2% !important;
+    }
+    .showContactRentStructure {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .container {
+        width: 100%;
+    }
+    .displayBlockMobile {
+        display: block !important;
+    }
+    .textValue {
+        margin-left: 35px !important;
+    }
+
+    .modalImgs {
+        width: 100% !important;
+    }
+    .displayInlineMobile {
+        display: inline-flex !important;
+    }
+    .musicMobileLeft {
+        width: 48% !important;
+        display: inline-flex;
+        margin-left: 9px !important;
+    }
+
+    .musicMobileRight {
+        width: 48% !important;
+        display: inline-flex;
+        margin-right: -10px;
+        margin-left: -2px;
+    }
+    .textCenterMobile {
+        text-align: center;
+    }
+    .ml-menos-15-mobile {
+        margin-left: -15px !important;
+    }
+    .ml-menos-10-mobile {
+        margin-left: -10px !important;
+    }
+    .removeMusic {
+        margin-top: 2px;
+        position: absolute;
+    }
+    .divRemoveMusic {
+        margin-top: 5px !important;
+    }
+    .ml-10-mobile {
+        margin-left: 10px !important;
+    }
+    .ml-menos-5-mobile {
+        margin-left: -5px !important;
+    }
+    .deleteIntegrantes {
+        margin-left: 17px;
+        margin-top: 10px;
+    }
+    .day_week {
+        width: 20% !important;
+    }
+    .boxStructure {
+        padding: 18px 0px 1px 15px !important;
+        margin: 20px 11px !important;
+        width: 94%;
+    }
+    .titleStructuresMobile {
+        font-size: 1rem;
+    }
+    .wizard > .actions > ul {
+        display: grid;
+        text-align: center;
+    }
+
+    .wizard > .actions > ul > li {
+        margin-bottom: 8px;
+    }
+
+    .divDeleteBtn {
+        margin-bottom: 10px;
+        margin-top: 7px;
+    }
+    .deleteValoresDatasComemorativas {
+        margin-top: 10px;
+    }
+    .divButtonIntegrantes {
+        margin-left: -25px;
+    }
+    .table-responsive {
+        border: none !important;
+    }
+    .iconShareArtista {
+        margin-left: -30%;
+    }
+
+    .deleteEquipment {
+        margin-bottom: 10px;
+    }
+}
+
+.mf-negative-20 {
+    margin-left: -20px;
+}
+
+.mt-7 {
+    margin-top: 7px;
+}
+
+.flot-right {
+    float: right;
+    text-align: right;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+
+.marginDeAte {
+    margin: 7px 10px;
+}
+
+.ml-menos-90 {
+    margin-left: -90px;
+}
+
+.mb-step-form {
+    margin-bottom: 30px;
+}
+
+.textCenterNotMobile {
+    text-align: center;
+}
+
+.ml-menos-20 {
+    margin-left: -20px;
+}
+
+.ml-menos-60 {
+    margin-left: -60px;
+}
+
+.ml-menos-10-mobile {
+    margin-left: 0px;
+}
+
+.buttonsPermalink {
+    margin-top: 30px;
+    float: left;
+    text-align: left;
+    margin-left: -200px;
+}
+
+.btnFile {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-success-file {
+    border: 1px solid #2196f3;
+    background: #2196f3;
+    color: #fff;
+}
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+}
+.fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: "alpha(opacity=0)";
+    font-size: 200px;
+    direction: ltr;
+    cursor: pointer;
+}
+
+.thumb {
+    height: 80px;
+    width: 100px;
+    border: 1px solid #000;
+}
+
+ul.thumb-Images li {
+    width: 120px;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    height: 120px;
+}
+
+.img-wrap {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+}
+
+.img-wrap .close {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 2;
+    background-color: #d0e5f5;
+    padding: 5px 2px 2px;
+    color: #000;
+    font-weight: bolder;
+    cursor: pointer;
+    opacity: 0.5;
+    font-size: 23px;
+    line-height: 10px;
+    border-radius: 50%;
+}
+
+.img-wrap:hover .close {
+    opacity: 1;
+    background-color: #ff0000;
+}
+
+.FileNameCaptionStyle {
+    font-size: 12px;
+    color: #fff;
+    width: 70%;
+}
+.imgPreview {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.deleteImagesArray {
+    background: #bdbabab8;
+    padding: 5px 9px;
+    border-radius: 50%;
+    top: -42px;
+    margin-top: -5px;
+    margin-left: -24px;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group > label {
+    font-weight: 100 !important;
+    font-size: 14px;
+}
+.codigoArtista {
+    font-size: 17px;
+}
+
+.divButtonIntegrantes {
+    float: right;
+    text-align: right;
+    margin-right: 18px;
+}
+
+.day_week {
+    position: relative;
+    width: 70px;
+    height: 35px;
+    margin: 5px;
+    float: left;
+    border: 2px solid #e77237;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.day_week div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    transition: 0.5s ease;
+}
+
+.day_week input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 35px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked ~ div {
+    background-color: #e77237;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 0.1px;
+    margin-left: 0.3px;
+    padding: 5px;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: "";
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.divInputDatesMemorial {
+    display: inline-flex;
+    text-align: center;
+}
+
+.divValuesChangeDatesMemorial {
+    display: inline-flex;
+    text-align: center;
+    margin-top: 15px !important;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.noneDesktop {
+    display: none;
+}
+.displayNoneDesktop {
+    display: none;
+}
+
+.displayInlineFlex {
+    display: inline-flex !important;
+}
+
+.btnTimePlusGlobal {
+    padding: 10px 24px !important;
+    margin-left: 15px !important;
+}
+.btnTimeMinus {
+    padding: 10px 24px !important;
+    margin-right: 15px !important;
+}
+
+.btnFaPlus {
+    padding: 10px 24px !important;
+    margin-left: 15px !important;
+}
+.btnFaMinus {
+    padding: 10px 24px !important;
+    margin-right: 15px !important;
+}
+.textValue {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.modalImgs {
+    width: 430px !important;
+}
+.btnModalImg {
+    padding: 10px 30px !important;
+    margin: 10px 3px !important;
+}
+.form-group > .titulosSteps {
+    font-weight: 600 !important;
+}
+
+.visibilidade span {
+    font-weight: 200 !important;
+}
+
+.mb-5 {
+    margin-bottom: 5px !important;
+}
+.removeMusic {
+    background: #d0d0d0;
+    padding: 4px 7px;
+    border-radius: 51%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.divRemoveMusic {
+    width: 10px !important;
+    margin-top: 7px;
+}
+
+.deleteEquipment {
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+#copyValueCategorie {
+    margin: 5px 10px 0px 0px;
+}
+
+.divisionHrAdm {
+    border-top: 1px solid #b3b3b3;
+    margin-top: 35px !important;
+    padding-top: 15px;
+}
+
+.btnDeleteAdm {
+    cursor: pointer;
+    background: #fff;
+    padding: 6px 20px;
+    border-radius: 20px;
+    border: 1px solid #f70;
+    color: #000;
+}
+
+.cursorPoint {
+    cursor: pointer !important;
+}
+
+.boxStructure {
+    background: #f3f3f3;
+    padding: 22px 15px 1px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+}
+
+.boxStructureSelected {
+    background: #ff770040;
+}
+
+.boxStructureSelected {
+    background: #ff770040;
+}
+
+.structureBuy .line-icon p {
+    font-size: 11px;
+}
+.imgStructure {
+    width: 38px;
+    height: 38px;
+    margin-right: 15px;
+    margin-bottom: 22px;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+.titleStruc {
+    font-size: 18px;
+    font-weight: 600;
+}
+.countStructure {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -12px;
+    margin-bottom: 17px;
+    color: #f70;
+}
+
+.boxAtencaoAgenda {
+    text-align: center;
+    background: #e7723759;
+    color: #000;
+    padding: 16px 5px 6px;
+    margin-bottom: 25px;
+}
+
+.textMultiplos {
+    margin-left: -60px;
+}
+
+.inputTime {
+    width: 75px !important;
+    height: 35px !important;
+}
+
+.legentNotBorder {
+    border-bottom: none !important;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+}
+
+.width50 {
+    width: 49%;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.deleteValoresDatasComemorativas {
+    margin-top: 10px;
+}
+
+.padding-top-1 {
+    padding-top: 1px;
+}

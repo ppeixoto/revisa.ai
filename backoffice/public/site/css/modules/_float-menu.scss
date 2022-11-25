@@ -1,0 +1,26 @@
+#menu-float{
+    position: fixed;
+    padding-left:20px;
+    left: -20px;
+    border-radius: 4px;
+    background:$cor3;
+    transition: all 0.5s ease-out;
+    &.active{
+        left:-141px
+    }
+    ul{
+        flex-direction: column;
+        li{
+            a{
+                color:$cor1;
+                border-radius: 0;
+                &.active{
+                    background:$cor4;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        display:none;
+    }
+}

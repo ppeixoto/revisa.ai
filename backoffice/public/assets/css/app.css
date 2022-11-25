@@ -1,0 +1,13 @@
+.input-group-text {
+    border: none !important;
+}
+
+@media (min-width:0px) {
+    .d-xs-block {
+        display: block !important
+    }
+
+    .d-xs-none {
+        display: none !important
+    }
+}

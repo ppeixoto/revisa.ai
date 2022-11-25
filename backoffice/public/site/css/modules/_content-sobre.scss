@@ -1,0 +1,77 @@
+.content-sobre{
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    article{
+        width:calc(100% - 340px);
+    }
+    .line-icon{
+        display:flex;
+        align-items:center;
+        margin-bottom: 30px;
+        img{
+            width:55px;
+            margin-right:10px;
+        }
+        h5{
+            margin:0px;
+        }
+        p{
+            margin:0px;
+        }
+    }
+    .sobre-o-artista{
+        ul{
+            margin: 20px 0;
+            padding:0;
+            li{
+                list-style:none;
+                margin-bottom:5px;
+                &.list-group-item{
+                    margin:0  0 -1px 0;
+                }
+                a{
+                    color:$cor2;
+                    &:hover{
+                        text-decoration: none;
+                        color:$cor3;
+                    }                        
+                    &.com-icone{
+                        img{
+                            height:30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    aside{
+        position: relative;
+        width:300px;
+        .form-disponivel{
+            &.fixed{
+                position:fixed;
+                top:20px;
+                width:300px;
+            }
+            form{
+                border-radius:5px;
+                padding:20px;
+                box-shadow: 0px 0px 10px #c7c7c7;
+            }
+        }
+    }
+    @media only screen and (max-width:$mobileMax){
+        .container{
+            flex-direction: column-reverse;
+        }
+        article{
+            width:100%;
+        }
+        aside{
+            width:100%;
+            margin-bottom:30px;
+        }
+    }
+}

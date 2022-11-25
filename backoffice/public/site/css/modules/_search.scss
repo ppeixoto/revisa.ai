@@ -1,0 +1,43 @@
+.search-box{
+    margin-bottom:30px;
+    &:before{
+        display: block;
+        content:"";
+        width:100%;
+        height:10px;
+        background: url('../img/line-top.png'); 
+        background-size:100%;
+        margin-bottom:15px;
+    } 
+    background: $cor6;
+    padding:0 0  15px 0;
+    .form-control{
+        border:none;
+        padding:5px 0;
+        border-radius: 0;
+        border-bottom:solid 1px $cor5;
+        background: none;
+    }
+    .btn{
+        margin-left:5px !important;
+        border-radius:60px !important;
+    }
+    .advance-search{
+        height:0;
+        opacity:0;
+        overflow: hidden;
+        transition: all 0.5s ease-out;
+        &.active{
+            height:auto;
+            overflow: visible;
+            opacity:1;
+            transition: all 0.5s ease-out;
+        }
+    }
+}
+
+.search-home{
+    .search-box{
+        margin-bottom:0;
+    }
+}

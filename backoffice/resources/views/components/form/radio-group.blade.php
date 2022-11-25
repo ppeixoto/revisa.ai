@@ -1,0 +1,9 @@
+<x-form.form-group 
+    :field="$field" 
+    :label="$label" 
+    :hidden="$hidden"
+    :required="$required"
+    :description="$description"
+    >
+    {{$slot}}
+</x-form.form-group>

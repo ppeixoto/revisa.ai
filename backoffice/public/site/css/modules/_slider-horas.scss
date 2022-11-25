@@ -1,0 +1,48 @@
+.slider-horas{
+    margin:30px 0;
+    display:flex;
+    align-items: center;
+    .item{
+        padding:0 20px;
+         @media only screen and (max-width: 768px) {
+             .d-flex{
+                 flex-direction: column;
+             }
+         }
+        .cell{
+            width:100%;
+            background:$cor6;
+            padding:5px 10px;
+            border: solid 1px $cor1;
+            h3{
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            h5{
+                text-align: center;
+                font-size: 1.2rem;
+            }            
+            .min{
+                display: flex;
+                span{
+                    width:100%;
+                    padding:2px 5px;
+                    color:$cor1;
+                    border:solid 1px $cor1;
+                    text-align: center;
+                    background:$cor5;
+                    &.active{
+                        background: $cor3;
+                    }
+                }
+            }
+        }
+    }
+    .slick-arrow{
+        font-size:30px;
+        cursor: pointer;
+    }
+   .slick-slide > div{
+       display:flex;
+   }
+}
