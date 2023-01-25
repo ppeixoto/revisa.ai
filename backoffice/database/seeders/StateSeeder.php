@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\Address\State;
+use App\Models\State;
 use Illuminate\Database\Seeder;
 
 class StateSeeder extends Seeder

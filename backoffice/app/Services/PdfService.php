@@ -2,11 +2,13 @@
 
 namespace App\Services;
 
+use App\Models\File;
+
 class PdfService
 {
-    public function countWordsInPDFFileUploaded($file)
+    public function countWordsInPDFFileUploaded(File $file)
     {
-        $file = $file->getRealPath();
+        $file = storage_path('app/public/' . $file->path);
         $text = shell_exec("pdftotext $file -");
         $text = preg_replace('/\s+/', ' ', $text);
         $text = trim($text);
@@ -15,9 +17,9 @@ class PdfService
         return $wordCount;
     }
 
-    public function countPDFWordsWithps2ascii($file)
+    public function countPDFWordsWithps2ascii(File $file)
     {
-        $file = $file->getRealPath();
+        $file = storage_path('app/public/' . $file->path);
         $text = shell_exec("ps2ascii $file");
         $text = preg_replace('/\s+/', ' ', $text);
         $text = trim($text);

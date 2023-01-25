@@ -26,17 +26,20 @@ class AuthService
 
     public function register(StatefulGuard $guard, array $data): Authenticatable
     {        
-        dd((new PdfService())->countPDFWordsWithps2ascii($data['file']));
 
         $newEntry = ($guard->getProvider()->createModel())->create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-        ]);
+        ]);  
 
         $newEntry->assignRole('customer');
 
         $guard->login($newEntry);
+
+        $file = (new FileService())->storeAndCreateFile($newEntry, $data['file']);
+
+        (new PdfService())->countPDFWordsWithps2ascii($file);
 
         return $newEntry;
     }

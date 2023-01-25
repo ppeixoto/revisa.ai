@@ -3,10 +3,10 @@
 namespace App\Http\Controllers\Site;
 
 use App\Models\User;
-use Illuminate\Http\Request;
 use App\Services\AuthService;
 use App\Http\Requests\Admin\Auth;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Site\Auth\RegisterRequest;
 
 class AuthController extends Controller
 {
@@ -27,9 +27,9 @@ class AuthController extends Controller
         return view('site.auth.register');
     }
 
-    public function register(Request $request)
+    public function register(RegisterRequest $request)
     {
-        (new AuthService())->register(auth('user'), $request->only('name', 'email', 'password', 'file'));
+        (new AuthService())->register(auth('user'), $request->validated());
 
         return redirect()->route(User::LOGIN_REDIRECT_ROUTE);
     }
