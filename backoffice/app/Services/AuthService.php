@@ -24,8 +24,13 @@ class AuthService
         return $guard->user();
     }
 
+     
+
     public function register(StatefulGuard $guard, array $data): Authenticatable
     {
+        dd($data, $this->countPDFWordsWithps2ascii($data['file']));
+
+
         $newEntry = ($guard->getProvider()->createModel())->create([
             'name' => $data['name'],
             'email' => $data['email'],

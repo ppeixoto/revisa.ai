@@ -29,7 +29,7 @@ class AuthController extends Controller
 
     public function register(Request $request)
     {
-        (new AuthService())->register(auth('user'), $request->only('name', 'email', 'password'));
+        (new AuthService())->register(auth('user'), $request->only('name', 'email', 'password', 'file'));
 
         return redirect()->route(User::LOGIN_REDIRECT_ROUTE);
     }

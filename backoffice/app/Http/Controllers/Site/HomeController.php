@@ -11,6 +11,11 @@ class HomeController extends Controller
         return view('site.home');
     }
 
+    public function start()
+    {
+        return view('site.start');
+    }
+
     public function account()
     {
         return view('site.my_account');
