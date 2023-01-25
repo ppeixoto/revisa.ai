@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Models\Global;
+namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Contact extends Model
 {
@@ -21,6 +21,6 @@ class Contact extends Model
         'is_my_order',
         'order_id',
         'buyer_cpf',
-        'buyer_email'
+        'buyer_email',
     ];
 }
