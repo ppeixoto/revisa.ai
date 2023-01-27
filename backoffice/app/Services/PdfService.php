@@ -6,6 +6,15 @@ use App\Models\File;
 
 class PdfService
 {
+    /*
+        1 Lauda = 1.250 caracteres
+        Revisão Gramatical R$5,50 / Lauda
+        Revisão gramatical e reorganização textual R$ 7,50
+        Leitura Crítica de textos literários, até 10 laudas R$100,00
+        A partir de 10 laaudas acrescenta-se R$3,50/lauda
+        Formatação ABNT de dissertação, tese, monografia e outros textos R$3,50 /lauda
+    */
+
     public function countWordsInPDFFileUploaded(File $file)
     {
         $file = storage_path('app/public/' . $file->path);

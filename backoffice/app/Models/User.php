@@ -14,7 +14,7 @@ class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable, SoftDeletes, HasRoles;
 
-    const LOGIN_REDIRECT_ROUTE = 'site.home';
+    const LOGIN_REDIRECT_ROUTE = 'dashboard.home';
     const LOGOUT_REDIRECT_ROUTE = 'login';
 
     /**

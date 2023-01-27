@@ -1,0 +1,2 @@
+<x-layouts.shared.menu-item title='Dashboard' :route="route('dashboard.home')" :active="request()->routeIs('dashboard.home')" icon='bi bi-house' />
+<x-layouts.shared.menu-item title='Minha Conta' :route="route('dashboard.account.index')" :active="request()->routeIs('seller.account.*')" icon="bi bi-person" />

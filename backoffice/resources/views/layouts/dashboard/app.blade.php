@@ -41,8 +41,10 @@
                 <x-layouts.shared.sidebar>
                     @if(request()->routeIs('admin.*'))
                     <x-layouts.admin.menu />
-                    @else
+                    @elseif(request()->routeIs('seller.*'))
                     <x-layouts.seller.menu />
+                    @else
+                    <x-layouts.dashboard.menu />
                     @endif
                 </x-layouts.shared.sidebar>
                 <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
