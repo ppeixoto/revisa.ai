@@ -19,9 +19,7 @@ class AuthController extends Controller
     {
         $teste = (new AuthService())->login(auth('user'), $request->only('email', 'password'));
 
-        dd($teste);
-
-        return redirect()->intended();
+        return redirect()->route(User::LOGIN_REDIRECT_ROUTE);
     }
 
     public function showRegistrationForm()

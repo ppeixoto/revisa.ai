@@ -10,7 +10,7 @@
     <meta content="Revisa Aí" name="author" />
 
 
-    <link rel="shortcut icon" href="site/images/favicon.ico" />
+    <link rel="shortcut icon" href="/site/images/favicon.ico" />
 
 
     <link href="/site/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
