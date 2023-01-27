@@ -1,7 +1,7 @@
 @extends('layouts.site.app')
 
 @section('content')
-<!-- START HOME -->
+
 <section class="bg-home4 overflow-hidden" id="home">
     <div class="container">
         <div class="position-relative" style="z-index: 1;">
@@ -17,24 +17,36 @@
                                     <div class="position-relative mb-3">
                                         <span class="input-group-text"><i class="mdi mdi-account-outline"></i></span>
                                         <input name="name" id="name" type="text" class="form-control" placeholder="Nome" required="">
+                                        @error('name')
+                                        <span class="text-danger">{{ $message }}</span>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="position-relative mb-3">
                                         <span class="input-group-text"><i class="mdi mdi-email-outline"></i></span>
                                         <input name="email" id="email" type="email" class="form-control" placeholder="E-mail" required="">
+                                        @error('email')
+                                        <span class="text-danger">{{ $message }}</span>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="position-relative mb-3">
                                         <span class="input-group-text"><i class="mdi mdi-lock-outline"></i></span>
                                         <input name="password" id="password" type="password" class="form-control" placeholder="Senha" required="">
+                                        @error('password')
+                                        <span class="text-danger">{{ $message }}</span>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="position-relative mb-3">
                                         <span class="input-group-text"><i class="mdi mdi-file-document-outline"></i></span>
                                         <input name="file" id="file" type="file" class="form-control" required="">
+                                        @error('file')
+                                        <span class="text-danger">{{ $message }}</span>
+                                        @enderror
                                     </div>
                                 </div>
                             </div>
@@ -46,17 +58,17 @@
                         </form>
                     </div>
                 </div>
-                <!--end col-->
+
                 <div class="col-lg-6 offset-xl-1">
                     <div class="mt-lg-0 mt-5">
                         <img src="/site/images/home/home1.png" alt="home04" class="home-img">
                     </div>
                 </div>
             </div>
-            <!--end row-->
+
         </div>
     </div>
-    <!--end container-->
+
 </section>
 <div class="position-relative">
     <div class="shape overflow-hidden text-white position-absolute">
@@ -72,6 +84,6 @@
         </svg>
     </div>
 </div>
-<!-- END HOME -->
+
 
 @endsection

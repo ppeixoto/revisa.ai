@@ -36,7 +36,13 @@
 
     <div class="d-flex flex-column flex-root app-root" id="kt_app_root">
         <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
+            @if(request()->routeIs('admin.*'))
             <x-layouts.shared.header />
+            @elseif(request()->routeIs('seller.*'))
+            <x-layouts.shared.header />
+            @else
+            <x-layouts.dashboard.header />
+            @endif
             <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
                 <x-layouts.shared.sidebar>
                     @if(request()->routeIs('admin.*'))

@@ -17,7 +17,9 @@ class AuthController extends Controller
 
     public function login(Auth\LoginRequest $request)
     {
-        (new AuthService())->login(auth('user'), $request->only('email', 'password'));
+        $teste = (new AuthService())->login(auth('user'), $request->only('email', 'password'));
+
+        dd($teste);
 
         return redirect()->intended();
     }

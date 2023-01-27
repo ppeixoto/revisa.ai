@@ -207,7 +207,7 @@
                             <div class="col-lg-6">
                                 <div class="works-description-left text-start bg-light mx-lg-3 mx-4 text-lg-end">
                                     <h5 class="fs-18">Revisão</h5>
-                                    <p class="text-muted mb-0">Profissionais especializados farão a revisão e devidas correções do seu texto com base nos parâmetros especificados.
+                                    <p class="text-muted mb-0">Profissionais especializados farão a revisão e as devidas correções do seu texto com base nos parâmetros especificados.
                                     </p>
                                 </div>
                             </div>
@@ -281,7 +281,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="text-center mb-5">
-                    <h3>O que nossos usuários estão falando?</h3>
+                    <h3>O que os nossos usuários estão falando?</h3>
                     <p class="text-muted mt-2 mb-0">Levamos muito a sério nosso trabalho e isso transparece em feedbacks de nossos clientes</p>
                 </div>
             </div>
@@ -299,7 +299,7 @@
                                     </div>
                                     <div class="mt-4">
                                         <h6 class="mb-0 fs-17">Primeira Pessoa</h6>
-                                        <p class="text-muted mb-0">João Peessoa - PB</p>
+                                        <p class="text-muted mb-0">João Pessoa - PB</p>
                                     </div>
                                 </div>
                                 <div class="card-body">
@@ -521,7 +521,7 @@
                         </div>
                         <div class="content">
                             <h5 class="fs-17">Pergunta Principal 01</h5>
-                            <p class="text-muted mb-0">Resposta a pergunta Principal 01.</p>
+                            <p class="text-muted mb-0">Resposta à pergunta Principal 01.</p>
                         </div>
                     </div>
                 </div>
@@ -532,7 +532,7 @@
                         </div>
                         <div class="content">
                             <h5 class="fs-17">Pergunta Principal 02</h5>
-                            <p class="text-muted mb-0">Resposta a pergunta Principal 02.</p>
+                            <p class="text-muted mb-0">Resposta à pergunta Principal 02.</p>
                         </div>
                     </div>
                 </div>
@@ -543,7 +543,7 @@
                         </div>
                         <div class="content">
                             <h5 class="fs-17">Pergunta Principal 03</h5>
-                            <p class="text-muted mb-0">Resposta a pergunta Principal 03.</p>
+                            <p class="text-muted mb-0">Resposta à pergunta Principal 03.</p>
                         </div>
                     </div>
                 </div>
@@ -557,7 +557,7 @@
                         </div>
                         <div class="content">
                             <h5 class="fs-17">Pergunta Principal 04</h5>
-                            <p class="text-muted mb-0">Resposta a pergunta Principal 04.</p>
+                            <p class="text-muted mb-0">Resposta à pergunta Principal 04.</p>
                         </div>
                     </div>
                 </div>
@@ -587,8 +587,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="text-center">
-                    <h3>Quemm somos</h3>
-                    <p class="text-muted pt-2">Nós somos uma equipe dinâmica de pessoas talentosas e inovadores com bastante experiência em revisões textuais.</p>
+                    <h3>Quem somos</h3>
+                    <p class="text-muted pt-2">Nós somos uma equipe dinâmica de pessoas talentosas e inovadoras com bastante experiência em revisões textuais.</p>
                 </div>
             </div>
         </div>
@@ -696,7 +696,7 @@
             <div class="col-lg-8">
                 <div class="text-center text-white">
                     <h2 class="mb-3">Inicie agora mesmo sua revisão de texto.</h2>
-                    <p class="text-white-50 mb-0">Descomplique sua vida e tenha a melhor experiência em revisão de texto.</p>
+                    <p class="text-white-50 mb-0">Descomplique a sua vida e tenha a melhor experiência em revisão de textos.</p>
                     <div class="mt-4 pt-4">
                         <a href="#subscribe" class="btn btn-outline-white" data-bs-toggle="modal">Iniciar</a>
                     </div>
